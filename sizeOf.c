@@ -11,5 +11,7 @@ int main(){
 	printf("Enter the value in double \n");
 	scanf("%d",&d);
 	printf("Size of integer %u ",sizeof(i));
+	printf("Size of float %u \n",sizeof(f));
+	printf("Size of double %u \n",sizeof(d));
 	return 0;
 }
